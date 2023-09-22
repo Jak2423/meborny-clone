@@ -3,7 +3,7 @@ export default function Footer() {
 		<footer className='relative bg-[#181c60]'>
 			<div className='flex flex-col lg:flex-row justify-between items-center w-full lg:w-[50%]  bg-[#444fe3] lg:absolute lg:-top-24 lg:left-[25%] mx-auto lg:rounded-[40px] mb-6 px-4 py-8 lg:py-0 lg:space-x-4 space-y-4'>
 				<div className='flex items-center gap-2'>
-					<i class='ri-customer-service-2-line ri-2x'></i>
+					<i className='ri-customer-service-2-line ri-2x'></i>
 					<p className='lg:text-sm text-xs lg:py-14 font-bold'>
 						Манай системийг ашиглахад хүндрэлтэй зүйлс гарч байгаа бол бидэнд мэдэгдэнэ үү
 					</p>
@@ -11,7 +11,7 @@ export default function Footer() {
 				<div className='relative w-full'>
 					<input
 						type='text'
-						class='h-10 text-xs lg:text-sm text-black w-full pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none'
+						className='h-10 text-xs lg:text-sm text-black w-full pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none'
 						placeholder='Meborny support'
 						data-ddg-inputtype='unknown'
 					></input>
